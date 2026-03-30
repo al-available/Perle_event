@@ -6,6 +6,7 @@ export default {
     mode: 'development',
     entry: {
         main: './src/index.js',
+        about:'./src/about.js',
     },
     output: {
         filename: '[name].js',
@@ -22,6 +23,11 @@ export default {
             template: './src/index.html',
             filename: 'index.html',
             chunks: ['main'],
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/about.html',
+            filename: 'about.html',
+            chunks: ['about'],
         }),
 
 
