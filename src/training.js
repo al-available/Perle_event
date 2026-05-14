@@ -1,4 +1,4 @@
-import './css/main.css'
+import './css/training.css'
 
 
 // navigation bar 
