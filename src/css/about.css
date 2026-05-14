@@ -8,12 +8,12 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
 body {
-  padding-top: 8rem;
+  padding-top: 5rem;
   background-color: #fcfcfc;
 }
 
@@ -65,7 +65,7 @@ body {
 .logo-sub {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  color: #e3a93f;
+  color: #e8bd6d;
 }
 
 
@@ -131,7 +131,7 @@ body {
 .mobile-logo p {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  color: #e3a93f;
+  color: #e8bd6d;
 }
 
 
@@ -149,6 +149,7 @@ body {
   font-size: 1.7rem;
   border-radius: 1rem;
   transition: all 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -220,6 +221,7 @@ body {
   text-decoration: none;
   color: inherit;
   display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -233,7 +235,6 @@ body {
   transform: translateY(0);
   box-shadow: 0 0.6rem 1.2rem rgba(240, 74, 36, 0.2);
 }
-
 
 
 .hero {
@@ -288,12 +289,13 @@ body {
 .top-text {
   font-size: 1.2rem;
   letter-spacing: 0.4rem;
-  color: #f5c542;
+  color:#e8bd6d;
   text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero h1 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 6.5rem;
   line-height: 1.1;
   max-width: 80rem;
@@ -301,7 +303,8 @@ body {
 
 .hero h1 span {
   display: block;
-  color: #f5c542;
+  color:#e8bd6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero p {
@@ -309,6 +312,7 @@ body {
   max-width: 55rem;
   line-height: 1.8;
   color: #e5e5e5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cta-group {
@@ -320,14 +324,16 @@ body {
 .btn {
   padding: 1.4rem 3rem;
   font-size: 1.4rem;
-  border-radius: 5rem;
+  font-weight: 900;
+  border-radius: 3rem;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn-primary {
-  background: #f5c542;
+  background:#e8bd6d;
   color: #000;
 }
 
@@ -373,7 +379,7 @@ body {
 .quote-banner {
   width: 100%;
   padding: 8rem 2rem;
-  background: #2f6b4f; /* deep green */
+  background: #2f5d50; /* deep green */
 
   text-align: center;
 }
@@ -388,7 +394,7 @@ body {
 
   color: #ffffff;
 
-  font-family: "Georgia", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
 
@@ -396,7 +402,8 @@ body {
 .quote-author {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
   color: #f4c542; /* gold accent */
 }
 
@@ -446,25 +453,25 @@ body {
 }
 
 .story-content__label {
-  font-size: 1.2rem;
-  letter-spacing: 0.2rem;
-  color: #caa24c;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
+  font-size:1.7rem;
+  letter-spacing:.3rem;
+  color: #e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .story-content__title {
-  font-size: 3.6rem;
-  line-height: 1.2;
-  margin-bottom: 2rem;
-  color: #2d3a2e;
-  font-weight: 700;
+   font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .story-content__divider {
   width: 5rem;
   height: 0.2rem;
-  background: #caa24c;
+  background:#e8bd6d;
   margin-bottom: 2rem;
 }
 
@@ -472,6 +479,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.8;
   color: #5a6b5c;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 1.6rem;
 }
 
@@ -486,17 +494,19 @@ body {
 }
 
 .editorial__label {
-  font-size: 1.2rem;
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
-  color: #bfa046;
-  margin-bottom: 2rem;
+  font-size:1.9rem;
+  letter-spacing:.3rem;
+  color: #e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .editorial__title {
-  font-family: 'Playfair Display', serif;
-  font-size: 4.8rem;
-  line-height: 1.2;
+  font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .editorial__grid {
@@ -542,19 +552,20 @@ body {
 }
 
 .editorial__number {
-  font-family: 'Playfair Display', serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 4.2rem;
-  color: #1f4d3a;
+  color: #2f5d50;
 }
 
 .editorial__suffix {
-  color: #bfa046;
+  color: #e8bd6d;
 }
 
 .editorial__text {
   font-size: 1.3rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 0.8rem;
   color: #666;
 }
@@ -571,23 +582,25 @@ body {
 }
 
 .perle__label {
-  font-size: 1.2rem;
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
-  color: #bfa046;
-  margin-bottom: 1.5rem;
+  font-size:1.7rem;
+  letter-spacing:.3rem;
+  color: #e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .perle__title {
-  font-family: 'Playfair Display', serif;
-  font-size: 4.2rem;
-  margin-bottom: 1.5rem;
+  font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .perle__divider {
   width: 6rem;
   height: 0.2rem;
-  background: #bfa046;
+  background: #e8bd6d;
   margin: 0 auto;
 }
 
@@ -630,7 +643,7 @@ body {
 }
 
 .perle-card__title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -638,6 +651,7 @@ body {
 .perle-card__text {
   font-size: 1.4rem;
   line-height: 1.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #666;
 }
 
@@ -685,7 +699,7 @@ gap:2rem
 }
 
 h1{
-font-family:"Playfair Display",serif;
+font-family:'Times New Roman', Times, serif;
 font-size:5.4rem;
 line-height:1.15;
 letter-spacing:.05rem;
@@ -693,7 +707,8 @@ margin:0
 }
 
 h1 span{
-color:#d4af37
+color:#e8bd6d;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
@@ -701,6 +716,7 @@ font-size:1.7rem;
 color:#e6e6e6;
 line-height:1.6;
 max-width:55rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin:0
 }
 
@@ -714,10 +730,12 @@ margin-top:1rem
 }
 
 .btn-primary{
-background:#d4af37;
+background:#e8bd6d;
 color:#000;
 padding:1.5rem 3.2rem;
 font-size:1.5rem;
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 border-radius:.8rem;
 text-decoration:none;
 font-weight:500;
@@ -766,12 +784,14 @@ transform:translateY(-.2rem)
 .footer h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .footer p {
   font-size: 1.4rem;
   line-height: 1.8;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer ul {
@@ -782,6 +802,7 @@ transform:translateY(-.2rem)
   margin-bottom: 1rem;
   font-size: 1.4rem;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer ul li a {
@@ -796,10 +817,16 @@ transform:translateY(-.2rem)
 .f_logo {
   font-size: 2.2rem;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .f_logo span {
-  color: #f5c542;
+  color: #e8bd6d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ft_services a{
+  text-decoration: none;
 }
 
 .contact-item {
@@ -809,12 +836,13 @@ transform:translateY(-.2rem)
   margin-bottom: 1.2rem;
   font-size: 1.4rem;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contact-item svg {
   width: 1.6rem;
   height: 1.6rem;
-  fill: #f5c542;
+  fill:#e8bd6d;
 }
 
 .socials {
@@ -840,151 +868,4 @@ transform:translateY(-.2rem)
 }
 
 
-/* ================= FLUID IMPROVEMENTS ================= */
 
-/* Typography scaling */
-.hero h1 {
-  font-size: clamp(3.2rem, 5vw + 1rem, 6.5rem);
-}
-
-.hero p {
-  font-size: clamp(1.4rem, 1vw + 1rem, 1.6rem);
-}
-
-.story-content__title {
-  font-size: clamp(2.6rem, 3vw + 1rem, 3.6rem);
-}
-
-.editorial__title {
-  font-size: clamp(3rem, 3vw + 1rem, 4.8rem);
-}
-
-.perle__title {
-  font-size: clamp(2.8rem, 3vw + 1rem, 4.2rem);
-}
-
-h1 {
-  font-size: clamp(3rem, 4vw + 1rem, 5.4rem);
-}
-
-p {
-  font-size: clamp(1.4rem, 1vw + 1rem, 1.7rem);
-}
-
-/* ================= SMART GRIDS ================= */
-
-.editorial__grid {
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-}
-
-.perle__grid {
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
-.footer-container {
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-}
-
-/* ================= MEDIA QUERIES ================= */
-
-/* Tablets */
-@media (max-width: 75rem) {
-
-  .story-container {
-    flex-direction: column;
-    gap: 4rem;
-  }
-
-  .editorial {
-    padding: 6rem 2rem;
-  }
-
-  .editorial__grid {
-    gap: 4rem;
-  }
-
-  .perle {
-    padding: 6rem 2rem;
-  }
-
-  .hero h1 {
-    line-height: 1.2;
-  }
-}
-
-/* Mobile */
-@media (max-width: 48rem) {
-
-  /* NAV */
-  .nav-container {
-    padding: 1.5rem;
-  }
-
-  /* HERO */
-  .cta-group {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .btn,
-  .btn-primary,
-  .btn-secondary {
-    width: 100%;
-    text-align: center;
-  }
-
-  /* QUOTE */
-  .quote-text {
-    font-size: 2rem;
-  }
-
-  /* STORY */
-  .story-section {
-    padding: 4rem 2rem;
-  }
-
-  .story-container {
-    gap: 3rem;
-  }
-
-  .story-media__overlay {
-    display: none;
-  }
-
-  /* EDITORIAL */
-  .editorial__grid {
-    padding: 0 2rem;
-  }
-
-  /* PERLE */
-  .perle-card__img {
-    height: 22rem;
-  }
-
-  /* HERO CTA */
-  .content {
-    padding: 3rem 2rem;
-  }
-
-  /* FOOTER */
-  .footer {
-    padding: 4rem 2rem 2rem;
-  }
-}
-
-/* Small Phones */
-@media (max-width: 30rem) {
-
-  .hero h1 {
-    font-size: 2.8rem;
-  }
-
-  .editorial__title,
-  .perle__title {
-    font-size: 2.4rem;
-  }
-
-  .quote-text {
-    font-size: 1.8rem;
-  }
-}

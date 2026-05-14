@@ -8,12 +8,12 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
 body {
-  padding-top: 8rem;
+  padding-top: 5rem;
   background-color: #fcfcfc;
 }
 
@@ -65,7 +65,7 @@ body {
 .logo-sub {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  color: #e3a93f;
+  color: #e8bd6d;
 }
 
 
@@ -131,7 +131,7 @@ body {
 .mobile-logo p {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  color: #e3a93f;
+  color: #e8bd6d;
 }
 
 
@@ -149,6 +149,7 @@ body {
   font-size: 1.7rem;
   border-radius: 1rem;
   transition: all 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -220,6 +221,7 @@ body {
   text-decoration: none;
   color: inherit;
   display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -245,26 +247,31 @@ body {
 }
 
 .tag {
-  font-size: 1.2rem;
-  letter-spacing: 0.4rem;
-  color: #d4a437;
+  font-size:1.7rem;
+  letter-spacing:.3rem;
+  color: #e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .hero-section h1 {
-  font-size: 7rem;
-  line-height: 1.1;
-  font-weight: 600;
-  color: #1f2f27;
+  font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero-section h1 span {
   display: block;
-  color: #d4a437;
+  color:#e8bd6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero-section p {
   font-size: 1.8rem;
   color: #6b7c73;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .services-section {
@@ -277,24 +284,28 @@ body {
 }
 
 .tag {
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   letter-spacing: 0.4rem;
   color: #6b7c73;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .services-section h1 {
   font-size: 6rem;
   line-height: 1.1;
   color: #1f2f27;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .services-section h1 span {
-  color: #d4a437;
+  color:#e8bd6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .services-section p {
   font-size: 1.6rem;
   color: #6b7c73;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn {
@@ -349,17 +360,20 @@ body {
 }
 
 .cta-section h2 {
-  font-size: 6rem;
-  line-height: 1.1;
-  color: #1f2f27;
+  font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cta-section h2 span {
-  color: #d4a437;
+  color: #e8bd6d;
 }
 
 .cta-section p {
   font-size: 1.6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #6b7c73;
 }
 
@@ -369,9 +383,10 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 1.4rem 3rem;
-  background: #d4a437;
+  background: #e8bd6d;
   color: #1f2f27;
   font-size: 1.4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   border-radius: 4rem;
   transition: all 0.3s ease;
@@ -412,12 +427,14 @@ body {
 .footer h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .footer p {
   font-size: 1.4rem;
   line-height: 1.8;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer ul {
@@ -428,6 +445,7 @@ body {
   margin-bottom: 1rem;
   font-size: 1.4rem;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer ul li a {
@@ -442,10 +460,16 @@ body {
 .f_logo {
   font-size: 2.2rem;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .f_logo span {
-  color: #f5c542;
+  color: #e8bd6d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ft_services a{
+  text-decoration: none;
 }
 
 .contact-item {
@@ -455,12 +479,13 @@ body {
   margin-bottom: 1.2rem;
   font-size: 1.4rem;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contact-item svg {
   width: 1.6rem;
   height: 1.6rem;
-  fill: #f5c542;
+  fill:#e8bd6d;
 }
 
 .socials {
@@ -486,83 +511,4 @@ body {
 }
 
 
-/* ================= TABLET ================= */
-@media (max-width: 1024px) {
 
-  .story-container {
-    flex-direction: column;
-  }
-
-  .editorial__grid {
-    grid-template-columns: 1fr;
-  }
-
-  .perle__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero-section h1 {
-    font-size: 5rem;
-  }
-
-}
-
-
-/* ================= MOBILE ================= */
-@media (max-width: 768px) {
-
-  html {
-    font-size: 56.25%; /* 1rem = 9px */
-  }
-
-  .perle__grid {
-    grid-template-columns: 1fr;
-  }
-.footer{
-  padding-left: 0.8rem;
-}
-  .footer-container {
-    grid-template-columns: 1fr;
-    text-align: left;
-  }
-
-  .story-section {
-    padding: 4rem 2rem;
-  }
-
-  .editorial__grid {
-    padding: 0 2rem;
-  }
-
-  .hero-section h1 {
-    font-size: 4rem;
-  }
-
-  .services-section h1,
-  .cta-section h2 {
-    font-size: 3.8rem;
-  }
-
-}
-
-
-/* ================= SMALL MOBILE ================= */
-@media (max-width: 480px) {
-
-  html {
-    font-size: 50%; /* 1rem = 8px */
-  }
-
-  .hero-section h1 {
-    font-size: 3.2rem;
-  }
-
-  .services-section h1 {
-    font-size: 3rem;
-  }
-
-}

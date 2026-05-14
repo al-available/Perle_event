@@ -8,12 +8,12 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
 body {
-  padding-top: 8rem;
+  padding-top: 5rem;
   background-color: #fcfcfc;
 }
 
@@ -65,7 +65,7 @@ body {
 .logo-sub {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  color: #e3a93f;
+  color: #e8bd6d;
 }
 
 
@@ -131,7 +131,7 @@ body {
 .mobile-logo p {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
-  color: #e3a93f;
+  color: #e8bd6d;
 }
 
 
@@ -149,6 +149,7 @@ body {
   font-size: 1.7rem;
   border-radius: 1rem;
   transition: all 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -220,6 +221,7 @@ body {
   text-decoration: none;
   color: inherit;
   display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -247,17 +249,17 @@ body {
   top: 50%;
   left: 50%;
   width: 110%;
-  height: 110%;
+  height: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-  filter: brightness(0.6);
+  /* filter: brightness(0.6); */
 }
 
 /* OVERLAY */
 .heroX-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.186), rgba(0, 0, 0, 0.472));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.303));
 }
 
 /* CONTENT */
@@ -273,15 +275,16 @@ body {
 
 /* TITLE */
 .heroX-title {
-  font-size: 7.2rem;
+  font-size: 8rem;
   line-height: 1.1;
-  margin: 0 0 2rem;
-  font-family: serif;
+  margin-top:13rem ;
+  font-family: 'Times New Roman', Times, serif;
+  align-self: center;
 }
 
 .heroX-title span {
-  color: #e3a93f;
-  font-family: serif;
+  color: #e8bd6d;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 900;
 }
 
@@ -290,7 +293,9 @@ body {
   font-size: 1.8rem;
   max-width: 52rem;
   margin-bottom: 3.2rem;
+  margin-top: 2rem;
   color: #e5e5e5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* BUTTONS */
@@ -302,15 +307,16 @@ body {
 .heroX-btn {
   padding: 1.4rem 2.4rem;
   font-size: 1.6rem;
-  border-radius: 0.8rem;
+  border-radius: 2rem;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
 }
 
 .heroX-primary {
-  background: #e3a93f;
-  color: #111;
+  background: #e8bd6d;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .heroX-primary:hover {
@@ -320,6 +326,7 @@ body {
 .heroX-secondary {
   background: #ffffff;
   color: #2f5d50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .heroX-secondary:hover {
@@ -362,7 +369,7 @@ body {
 .svc__label{
   font-size:1.7rem;
   letter-spacing:.3rem;
-  color:#c7a24a;
+  color: #e8bd6d;
   font-weight:600;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -372,7 +379,7 @@ body {
   margin:1rem 0 4rem;
   color:#2f5d50;
   font-weight:900;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .svc__box{
@@ -416,27 +423,30 @@ body {
 }
 
 .svc__heading{
-  font-size:2rem;
+  font-size:4rem;
   margin:0 0 .8rem;
   font-weight:700;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .svc__text{
-  font-size:1.4rem;
+  font-size:1.5rem;
   margin:0 0 2rem;
   opacity:.9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .svc__link{
   font-size:1.3rem;
   color:#fff;
   text-decoration:none;
-  background:#d4af37;
+  background:#e8bd6d;
   padding:1rem 2rem;
   border-radius:3rem;
   display:inline-block;
   font-weight:600;
   transition:all .3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .svc__link:hover{
@@ -465,17 +475,19 @@ body {
 }
 
 .pf__label{
-  font-size:1.2rem;
-  letter-spacing:.35rem;
-  color:#c7a24a;
-  font-weight:700;
+  font-size:1.7rem;
+  letter-spacing:.3rem;
+  color: #e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .pf__title{
-  font-size:3.6rem;
-  margin:1.2rem 0 4.5rem;
-  color:#1c2b2a;
-  font-weight:800;
+   font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pf__grid{
@@ -534,6 +546,7 @@ body {
   opacity:0;
   transition:all .35s ease;
   z-index:2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pf__item:hover::after{
@@ -558,6 +571,7 @@ body {
   background:#2f6b4f;
   box-shadow:0 1rem 2rem rgba(47,107,79,.25);
   transition:all .3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pf__btn:hover{
@@ -577,23 +591,26 @@ body {
 }
 
 .ts__label{
-  font-size:1.2rem;
-  letter-spacing:.35rem;
-  color:#c7a24a;
-  font-weight:700;
+  font-size:1.7rem;
+  letter-spacing:.3rem;
+  color:#e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .ts__title{
-  font-size:3.6rem;
-  margin:1.2rem 0 1.5rem;
-  color:#1c2b2a;
-  font-weight:800;
+ font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ts__sub{
   font-size:1.5rem;
   color:#6b7c78;
   margin-bottom:5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ts__grid{
@@ -619,7 +636,7 @@ body {
 
 .ts__stars{
   font-size:1.6rem;
-  color:#d4af37;
+  color:#e8bd6d;
   margin-bottom:1.5rem;
 }
 
@@ -654,7 +671,7 @@ body {
 
 .ts__role{
   font-size:1.2rem;
-  color:#c7a24a;
+  color:#e8bd6d;
   font-weight:600;
 }
 
@@ -692,6 +709,7 @@ body {
   font-weight:800;
   margin-bottom:1.6rem;
   line-height:1.2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cta__text{
@@ -699,6 +717,7 @@ body {
   color:#e3efe8;
   margin-bottom:3.5rem;
   line-height:1.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cta__actions{
@@ -721,10 +740,11 @@ body {
   gap:.8rem;
   position:relative;
   overflow:hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cta__btn--primary{
-  background:#d4af37;
+  background:#e8bd6d;
   color:#1c2b2a;
   box-shadow:0 1rem 2.5rem rgba(0,0,0,.25);
 }
@@ -790,25 +810,27 @@ body {
 }
 
 .why__label{
-  font-size:1.2rem;
-  letter-spacing:.4rem;
-  color:#c7a24a;
-  font-weight:700;
+  font-size:1.7rem;
+  letter-spacing:.3rem;
+  color:#e8bd6d;
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .why__title{
-  font-size:3.8rem;
-  margin:1.4rem 0 4.5rem;
-  color:#1c2b2a;
-  font-weight:800;
-  line-height:1.2;
+ font-size:5.6rem;
+  margin:1rem 0 4rem;
+  color:#2f5d50;
+  font-weight:900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .why__title::after{
   content:"";
   width:7rem;
   height:.3rem;
-  background:#d4af37;
+  background:#e8bd6d;
   display:block;
   margin:1.4rem auto 0;
   border-radius:1rem;
@@ -839,6 +861,7 @@ body {
   box-shadow:0 1rem 2.5rem rgba(0, 0, 0, 0.507);
   transition:all .35s ease;
   position:relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .why__item::before{
@@ -875,7 +898,7 @@ body {
 }
 
 .why__item:hover::before{
-  background:#d4af37;
+  background:#e8bd6d;
   color:#1c2b2a;
 }
 
@@ -904,12 +927,14 @@ body {
 .footer h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .footer p {
   font-size: 1.4rem;
   line-height: 1.8;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer ul {
@@ -920,6 +945,7 @@ body {
   margin-bottom: 1rem;
   font-size: 1.4rem;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer ul li a {
@@ -934,10 +960,16 @@ body {
 .f_logo {
   font-size: 2.2rem;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .f_logo span {
-  color: #f5c542;
+  color: #e8bd6d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ft_services a{
+  text-decoration: none;
 }
 
 .contact-item {
@@ -947,12 +979,13 @@ body {
   margin-bottom: 1.2rem;
   font-size: 1.4rem;
   color: #d8e6dd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contact-item svg {
   width: 1.6rem;
   height: 1.6rem;
-  fill: #f5c542;
+  fill:#e8bd6d;
 }
 
 .socials {
@@ -977,165 +1010,5 @@ body {
   color: #d8e6dd;
 }
 
-/* ================= FLUID SCALING ================= */
-
-.heroX-title {
-  font-size: clamp(3.6rem, 5vw + 1rem, 7.2rem);
-}
-
-.heroX-subtext {
-  font-size: clamp(1.4rem, 1vw + 1rem, 1.8rem);
-}
-
-.heroX-content {
-  padding: clamp(6rem, 8vw, 12rem) clamp(2rem, 4vw, 4rem);
-}
-
-.svc__title {
-  font-size: clamp(3rem, 4vw + 1rem, 5.6rem);
-}
-
-.pf__title,
-.ts__title,
-.cta__title,
-.why__title {
-  font-size: clamp(2.6rem, 3vw + 1rem, 3.8rem);
-}
-
-.cta__text {
-  font-size: clamp(1.4rem, 1vw + 1rem, 1.6rem);
-}
-
-/* Auto responsive grids */
-.pf__grid {
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
-.ts__grid {
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
-.footer-container {
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-}
-
-/* ================= MEDIA QUERIES ================= */
-
-/* Tablets */
-@media (max-width: 75rem) {
-  .svc {
-    padding: 5rem 3rem;
-  }
-
-  .pf {
-    padding: 5rem 3rem;
-  }
-
-  .ts {
-    padding: 5rem 3rem;
-  }
-
-  .footer {
-    padding: 5rem 4rem 3rem;
-  }
-
-    .heroX-content {
-    margin-top: 10rem;
-  }
 
 
-  .heroX-title {
-    line-height: 1.2;
-  }
-}
-
-/* Mobile */
-@media (max-width: 48rem) {
-
-  /* NAV */
-  .nav-container {
-    padding: 1.5rem;
-  }
-
-  /* HERO */
-  .heroX {
-    height: auto;
-
-  }
-
-  .heroX-content {
-    padding: 8rem 2rem;
-
-  }
-
-  .heroX-actions {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .heroX-btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  /* SERVICES */
-  .svc {
-    padding: 4rem 2rem;
-  }
-
-  .svc__img {
-    height: 30rem;
-  }
-
-  /* PORTFOLIO */
-  .pf {
-    padding: 4rem 2rem;
-  }
-
-  /* TESTIMONIALS */
-  .ts {
-    padding: 4rem 2rem;
-  }
-
-  /* CTA */
-  .cta__actions {
-    flex-direction: column;
-  }
-
-  .cta__btn {
-    width: 100%;
-  }
-
-  /* WHY SECTION */
-  .why__item {
-    font-size: 1.4rem;
-  }
-
-  /* FOOTER */
-  .footer {
-    padding: 4rem 2rem 2rem;
-  }
-}
-
-/* Small Phones */
-@media (max-width: 30rem) {
-
-  .heroX-title {
-    font-size: 3.2rem;
-  }
-
-  .svc__title {
-    font-size: 2.6rem;
-  }
-
-  .pf__title,
-  .ts__title,
-  .cta__title,
-  .why__title {
-    font-size: 2.4rem;
-  }
-
-  .heroX-subtext {
-    font-size: 1.3rem;
-  }
-}
