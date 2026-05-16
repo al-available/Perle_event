@@ -12,6 +12,7 @@ export default {
     training: "./src/training.js",
     contact:'./src/contact.js',
     weeklyupdate:'./src/weeklyupdate.js',
+    portfolio:'./src/portfolio.js',
   },
   output: {
     filename: '[name].js',
@@ -53,6 +54,11 @@ export default {
       template: './src/weeklyupdate.html',
       filename: 'weeklyupdate.html',
       chunks: ['weeklyupdate'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/portfolio.html',
+      filename: 'portfolio.html',
+      chunks: ['portfolio'],
     }),
 
 
